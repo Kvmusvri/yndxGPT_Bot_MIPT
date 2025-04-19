@@ -1,0 +1,6 @@
+# created by virtualenv automatically
+Scripts
+.idea
+.env
+authorized_key.json
+include
