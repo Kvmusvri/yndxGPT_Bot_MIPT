@@ -1,6 +1,5 @@
 import asyncio
 import time
-
 from core.FSM.dialog_FSM import DialogReg
 from aiogram import F, Router
 from aiogram.types import Message, FSInputFile
