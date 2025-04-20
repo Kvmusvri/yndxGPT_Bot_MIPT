@@ -4,8 +4,9 @@ from aiogram.types.web_app_info import WebAppInfo
 
 main_kb = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text='1')],
-        [KeyboardButton(text='2')]
+        [KeyboardButton(text='Расскажи историю')],
+        [KeyboardButton(text='Расскажи шутку')],
+        [KeyboardButton(text='Узнать обстановку')]
     ],
     resize_keyboard=True,
 )

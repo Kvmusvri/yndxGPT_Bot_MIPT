@@ -8,6 +8,7 @@ from aiogram.fsm.context import FSMContext, StorageKey
 from aiogram.exceptions import TelegramForbiddenError
 from core.handlers.base_cmds import base_cmd_router
 from core.handlers.messages import dialog_router
+
 from core.callbacks.yndx_score import clbs_router
 from core.database.models import async_main
 
